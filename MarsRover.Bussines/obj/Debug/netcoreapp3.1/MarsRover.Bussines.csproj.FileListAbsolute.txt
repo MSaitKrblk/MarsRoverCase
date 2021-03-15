@@ -1,0 +1,12 @@
+D:\Repo\MarsRover\MarsRover.Bussines\bin\Debug\netcoreapp3.1\MarsRover.Bussines.deps.json
+D:\Repo\MarsRover\MarsRover.Bussines\bin\Debug\netcoreapp3.1\MarsRover.Bussines.dll
+D:\Repo\MarsRover\MarsRover.Bussines\bin\Debug\netcoreapp3.1\MarsRover.Bussines.pdb
+D:\Repo\MarsRover\MarsRover.Bussines\bin\Debug\netcoreapp3.1\MarsRover.Core.dll
+D:\Repo\MarsRover\MarsRover.Bussines\bin\Debug\netcoreapp3.1\MarsRover.Core.pdb
+D:\Repo\MarsRover\MarsRover.Bussines\obj\Debug\netcoreapp3.1\MarsRover.Bussines.csprojAssemblyReference.cache
+D:\Repo\MarsRover\MarsRover.Bussines\obj\Debug\netcoreapp3.1\MarsRover.Bussines.AssemblyInfoInputs.cache
+D:\Repo\MarsRover\MarsRover.Bussines\obj\Debug\netcoreapp3.1\MarsRover.Bussines.AssemblyInfo.cs
+D:\Repo\MarsRover\MarsRover.Bussines\obj\Debug\netcoreapp3.1\MarsRover.Bussines.csproj.CoreCompileInputs.cache
+D:\Repo\MarsRover\MarsRover.Bussines\obj\Debug\netcoreapp3.1\MarsRover.Bussines.csproj.CopyComplete
+D:\Repo\MarsRover\MarsRover.Bussines\obj\Debug\netcoreapp3.1\MarsRover.Bussines.dll
+D:\Repo\MarsRover\MarsRover.Bussines\obj\Debug\netcoreapp3.1\MarsRover.Bussines.pdb
