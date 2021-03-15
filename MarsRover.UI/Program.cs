@@ -20,8 +20,24 @@ namespace MarsRover.UI
                 Plateau plateau = new Plateau(int.Parse(plateauString[0]), int.Parse(plateauString[1]));
                 for (int i = 0; i < 2; i++)
                 {
+                    Position position;
                     string[] GetRoverPosition = Console.ReadLine().Split(' ');
-                    Position position = new Position(int.Parse(GetRoverPosition[0]), int.Parse(GetRoverPosition[1]), Core.Enums.Direction.E);
+                    if (GetRoverPosition[2]=="N")
+                    {
+                        position = new Position(int.Parse(GetRoverPosition[0]), int.Parse(GetRoverPosition[1]), Core.Enums.Direction.N);
+                    }
+                    else if (GetRoverPosition[2] == "E")
+                    {
+                        position = new Position(int.Parse(GetRoverPosition[0]), int.Parse(GetRoverPosition[1]), Core.Enums.Direction.E);
+                    }
+                    else if (GetRoverPosition[2] == "S")
+                    {
+                        position = new Position(int.Parse(GetRoverPosition[0]), int.Parse(GetRoverPosition[1]), Core.Enums.Direction.S);
+                    }
+                    else
+                    {
+                        position = new Position(int.Parse(GetRoverPosition[0]), int.Parse(GetRoverPosition[1]), Core.Enums.Direction.W);
+                    }
                     ProcessedCommands processedCommands = new ProcessedCommands(plateau, position, Console.ReadLine());
                     processedCommands.Process();
                     NavigatedRover.Add(processedCommands);
