@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MarsRover.Core.Enums
 {
-    public enum Direction
+    public enum Direction:int
     {
         /// <summary>
         /// N

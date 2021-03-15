@@ -1,5 +1,4 @@
-﻿using MarsRover.Bussines.Models;
-using MarsRover.Core.Enums;
+﻿using MarsRover.Core.Enums;
 using MarsRover.Core.Models;
 using System;
 using System.Collections.Generic;
@@ -70,28 +69,16 @@ namespace MarsRover.Bussines.Services
                 switch (processedCommands.CurrentPosition.LookingDirection)
                 {
                     case Direction.N:
-                        if (processedCommands.CurrentPosition.YPoint < processedCommands.Plateau.YLength)
                             processedCommands.CurrentPosition.YPoint += 1;
-                        else
-                            return false;
                         break;
                     case Direction.E:
-                        if (processedCommands.CurrentPosition.XPoint < processedCommands.Plateau.XLength)
                             processedCommands.CurrentPosition.XPoint += 1;
-                        else
-                            return false;
                         break;
                     case Direction.S:
-                        if (processedCommands.CurrentPosition.XPoint > processedCommands.Plateau.YLength)
                             processedCommands.CurrentPosition.YPoint -= 1;
-                        else
-                            return false;
                         break;
                     case Direction.W:
-                        if (processedCommands.CurrentPosition.XPoint > processedCommands.Plateau.YLength)
                             processedCommands.CurrentPosition.XPoint -= 1;
-                        else
-                            return false;
                         break;
                 }
                 return true;
