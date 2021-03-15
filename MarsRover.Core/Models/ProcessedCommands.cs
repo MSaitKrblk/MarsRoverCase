@@ -7,7 +7,8 @@ namespace MarsRover.Core.Models
     public class ProcessedCommands
     {
         public Plateau Plateau { get; set; }
-        public StartPosition StartPosition { get; set; }
-        public char[] Commands { get; set; }
+        public Position StartPosition { get; set; }
+        public Position CurrentPosition { get; set; }
+        public string Commands { get; set; }
     }
 }
